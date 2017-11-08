@@ -14,6 +14,7 @@
 		7B2675A01FB2E55700621F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B26759F1FB2E55700621F27 /* Assets.xcassets */; };
 		7B2675A31FB2E55700621F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2675A11FB2E55700621F27 /* LaunchScreen.storyboard */; };
 		7B2675AE1FB2E55700621F27 /* DBWToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675AD1FB2E55700621F27 /* DBWToolUITests.m */; };
+		7B2675BB1FB2E5EF00621F27 /* DBWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675BA1FB2E5EF00621F27 /* DBWButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		7B2675A91FB2E55700621F27 /* DBWToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBWToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2675AD1FB2E55700621F27 /* DBWToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBWToolUITests.m; sourceTree = "<group>"; };
 		7B2675AF1FB2E55700621F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2675B91FB2E5EF00621F27 /* DBWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWButton.h; sourceTree = "<group>"; };
+		7B2675BA1FB2E5EF00621F27 /* DBWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		7B2675921FB2E55700621F27 /* DBWTool */ = {
 			isa = PBXGroup;
 			children = (
+				7B2675B81FB2E5DA00621F27 /* Elements */,
 				7B2675961FB2E55700621F27 /* AppDelegate.h */,
 				7B2675971FB2E55700621F27 /* AppDelegate.m */,
 				7B2675991FB2E55700621F27 /* ViewController.h */,
@@ -109,6 +113,15 @@
 				7B2675AF1FB2E55700621F27 /* Info.plist */,
 			);
 			path = DBWToolUITests;
+			sourceTree = "<group>";
+		};
+		7B2675B81FB2E5DA00621F27 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				7B2675B91FB2E5EF00621F27 /* DBWButton.h */,
+				7B2675BA1FB2E5EF00621F27 /* DBWButton.m */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 				7B26759B1FB2E55700621F27 /* ViewController.m in Sources */,
 				7B2675981FB2E55700621F27 /* AppDelegate.m in Sources */,
 				7B2675951FB2E55700621F27 /* main.m in Sources */,
+				7B2675BB1FB2E5EF00621F27 /* DBWButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
