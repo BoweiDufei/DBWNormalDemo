@@ -15,6 +15,12 @@
 		7B2675A31FB2E55700621F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2675A11FB2E55700621F27 /* LaunchScreen.storyboard */; };
 		7B2675AE1FB2E55700621F27 /* DBWToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675AD1FB2E55700621F27 /* DBWToolUITests.m */; };
 		7B2675BB1FB2E5EF00621F27 /* DBWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675BA1FB2E5EF00621F27 /* DBWButton.m */; };
+		7B2675C61FB2E82300621F27 /* DBWSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675BD1FB2E82300621F27 /* DBWSwitch.m */; };
+		7B2675C71FB2E82300621F27 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675BF1FB2E82300621F27 /* NSDate+Category.m */; };
+		7B2675C81FB2E82300621F27 /* NSObject+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675C11FB2E82300621F27 /* NSObject+EX.m */; };
+		7B2675C91FB2E82300621F27 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675C31FB2E82300621F27 /* UIImage+Resize.m */; };
+		7B2675CA1FB2E82300621F27 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675C51FB2E82300621F27 /* UIView+Extension.m */; };
+		7B2675CD1FB2E86500621F27 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2675CC1FB2E86500621F27 /* NSDateFormatter+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,18 @@
 		7B2675AF1FB2E55700621F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B2675B91FB2E5EF00621F27 /* DBWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWButton.h; sourceTree = "<group>"; };
 		7B2675BA1FB2E5EF00621F27 /* DBWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWButton.m; sourceTree = "<group>"; };
+		7B2675BC1FB2E82300621F27 /* DBWSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBWSwitch.h; sourceTree = "<group>"; };
+		7B2675BD1FB2E82300621F27 /* DBWSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBWSwitch.m; sourceTree = "<group>"; };
+		7B2675BE1FB2E82300621F27 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		7B2675BF1FB2E82300621F27 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		7B2675C01FB2E82300621F27 /* NSObject+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EX.h"; sourceTree = "<group>"; };
+		7B2675C11FB2E82300621F27 /* NSObject+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EX.m"; sourceTree = "<group>"; };
+		7B2675C21FB2E82300621F27 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7B2675C31FB2E82300621F27 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7B2675C41FB2E82300621F27 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7B2675C51FB2E82300621F27 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7B2675CB1FB2E86500621F27 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		7B2675CC1FB2E86500621F27 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +136,18 @@
 		7B2675B81FB2E5DA00621F27 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
+				7B2675CB1FB2E86500621F27 /* NSDateFormatter+Category.h */,
+				7B2675CC1FB2E86500621F27 /* NSDateFormatter+Category.m */,
+				7B2675BC1FB2E82300621F27 /* DBWSwitch.h */,
+				7B2675BD1FB2E82300621F27 /* DBWSwitch.m */,
+				7B2675BE1FB2E82300621F27 /* NSDate+Category.h */,
+				7B2675BF1FB2E82300621F27 /* NSDate+Category.m */,
+				7B2675C01FB2E82300621F27 /* NSObject+EX.h */,
+				7B2675C11FB2E82300621F27 /* NSObject+EX.m */,
+				7B2675C21FB2E82300621F27 /* UIImage+Resize.h */,
+				7B2675C31FB2E82300621F27 /* UIImage+Resize.m */,
+				7B2675C41FB2E82300621F27 /* UIView+Extension.h */,
+				7B2675C51FB2E82300621F27 /* UIView+Extension.m */,
 				7B2675B91FB2E5EF00621F27 /* DBWButton.h */,
 				7B2675BA1FB2E5EF00621F27 /* DBWButton.m */,
 			);
@@ -226,8 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2675CA1FB2E82300621F27 /* UIView+Extension.m in Sources */,
+				7B2675C81FB2E82300621F27 /* NSObject+EX.m in Sources */,
+				7B2675C91FB2E82300621F27 /* UIImage+Resize.m in Sources */,
+				7B2675C61FB2E82300621F27 /* DBWSwitch.m in Sources */,
 				7B26759B1FB2E55700621F27 /* ViewController.m in Sources */,
+				7B2675C71FB2E82300621F27 /* NSDate+Category.m in Sources */,
 				7B2675981FB2E55700621F27 /* AppDelegate.m in Sources */,
+				7B2675CD1FB2E86500621F27 /* NSDateFormatter+Category.m in Sources */,
 				7B2675951FB2E55700621F27 /* main.m in Sources */,
 				7B2675BB1FB2E5EF00621F27 /* DBWButton.m in Sources */,
 			);
